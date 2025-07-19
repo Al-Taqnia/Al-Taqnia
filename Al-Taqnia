@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AL-TAQNIA (Pvt) Ltd</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+    }
+    header {
+      background: linear-gradient(90deg, red, blue);
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    .logo-img {
+      max-height: 100px;
+      margin-bottom: 10px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #f4f4f4;
+      padding: 10px 0;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+    }
+    .gallery img {
+      max-width: 200px;
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="LOGO.jpg" alt="AL-TAQNIA Logo" class="logo-img">
+    <div>www.al-taqnia.com</div>
+  </header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome to AL-TAQNIA</h2>
+    <p>Leading provider of electrical and engineering solutions in Pakistan.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>AL-TAQNIA (Pvt) Ltd is a professional engineering company dedicated to delivering top-notch electrical and technology solutions.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Electrical Installations</li>
+      <li>Automation & Control Systems</li>
+      <li>Solar Energy Solutions</li>
+      <li>Technical Consulting</li>
+    </ul>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <h2>Gallery</h2>
+    <p>Images coming soon...</p>
+  </section>
+
+  <section id="blog">
+    <h2>News & Blog</h2>
+    <p>No blog posts available yet. Stay tuned!</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p><strong>Office Address:</strong> Sui Gas Road, Off Lahore-Sheikhupura Road, Kot Abdul Malik</p>
+    <p><strong>Contact:</strong> +92 300 5987410</p>
+    <p><strong>Email:</strong> info@al-taqnia.com</p>
+    <div>
+      <iframe src="https://maps.google.com/maps?q=kot%20abdul%20malik&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 AL-TAQNIA (Pvt) Ltd. All Rights Reserved.
+  </footer>
+</body>
+</html>
